@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "strict": true,
+        "outDir": "js/",
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js"
+    },
+    "include": ["src/"],
+    "exclude": ["out/"]
+}

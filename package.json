@@ -1,0 +1,35 @@
+{
+  "name": "testApp",
+  "version": "1.0.0",
+  "description": "test electron",
+  "main": "js/app.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.3",
+    "@electron-forge/maker-deb": "^6.0.3",
+    "@electron-forge/maker-rpm": "^6.0.3",
+    "@electron-forge/maker-squirrel": "^6.0.3",
+    "@electron-forge/maker-zip": "^6.0.3",
+    "@types/electron": "^1.6.10",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "electron": "^21.2.3",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.31.10",
+    "typescript": "*"
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "build": "yarn tsc",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "dependencies": {
+    "babel-preset-solid": "^1.6.2",
+    "electron-squirrel-startup": "^1.0.0",
+    "solid-js": "^1.6.2"
+  }
+}
